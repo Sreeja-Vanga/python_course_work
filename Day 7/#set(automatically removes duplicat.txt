@@ -1,0 +1,27 @@
+#set:(automatically removes duplicates)
+->unordered
+->mutable
+->unique elements
+->set allows only immutable data types in it
+->we have no operations like repetition, concat,slicing, indexing,accessing in set except membership
+#set operations:
+->union(|) :to combine two sets
+->intersection(&):to find common elements.
+->difference(-):to remove elements in 1st set from 2nd set
+->symmetric diff(^):to get all the elements.
+->subset(<):to check whether all the elements of a set are present in the set
+->disjoint():to get the elements which are not common
+#methods:
+->max()
+->min()
+->sorted()
+->len()
+->sum()
+->add()
+->pop()
+->clear()
+### we cannot remove a specific item in a set using pop() or popitem().we use remove()
+->remove(val):tpo remove a val.But if if we want to remove a value that is not present in the set , then it throws an error.to avoid that we use discard
+->discard(val):it handles the error without throwing an error.
+->intersection_update():but when we use intersection_update the result is going to save in a
+->copy()
