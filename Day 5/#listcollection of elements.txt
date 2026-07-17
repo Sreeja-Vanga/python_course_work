@@ -1,0 +1,24 @@
+#list:collection of elements
+*features:
+->immutable without changing mem ref
+->ordered collection of elements
+->heterogenous datatype(allows multiple types)
+->duplicates are allowed
+
+#list operations :
+->all same as strings. 
+->append():-add at the end of the list
+->insert():-add at specific index
+->extend():add multiple elements at once at the end.
+->remove():to delete an element
+->pop():delete using index(default it deleted last ele)
+->del l[]:delete using del keyword 
+->max():last ele
+->min():first ele
+->index():access the index value
+->count():freq
+->sort():sort the elements permanently
+->reverse():to reverse the whole list
+->sum():to get the sum of all elements in the list
+->any(iterable):returns True if any true value(except 0,0.0,emtpy list,tuple,set,dict,false val).
+->all(iterable):returns True only if all the values are true.
