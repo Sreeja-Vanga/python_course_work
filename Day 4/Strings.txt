@@ -1,0 +1,66 @@
+Strings:
+->immutable
+->consists of duplicate values.
+->includes all values that is enclosed b/w quotations.
+operations:
+->concat-combining two strings
+->repeatition-repeating the strings using (*) symbol
+->indexing-accesing specific char 
+->slicing-splitting the string values(it gives group of chars).
+->membership-to check whether a particular name in the str.
+methods:
+->len():-length of the str.
+->sorted()-gives in sorted order based on the askci value
+->max()-most ascii value
+->min()-minimum ascii value
+->ord():-to know ascii val.
+->chr():-to know the ord by giving the ascii val
+->upper()
+->lower()
+->swapcase()
+->casefold()
+->capitalize()
+->title()
+#alignment and case conversion methods:
+->center():-this is method is used formatting of the strings-eg: names.center(50,'*')o/p:(****** Sreeja *****)
+->ljust():-left side is formatted
+->rjust():-right side
+->zfill():-to fill the chars
+#search and find methods:
+->find():-to find the index values of a char in the str.it gives -1 if there is no value.
+->rfind():-to find the index values of a char from right side of the str
+->index():-same as find() but if there are no values in the str then it gives error, whereas find() gives -1.
+->rindex():-same as find() but if there are no values in the str then it gives error, whereas find() gives -1.
+->count():-it gives no of times a char is repeating.
+#replace and modify:
+->replace('old val','new val')
+->maketrans():helps in translating a particular char to another using based on the ascii values.(each char)
+#splitting:
+->split()-used to split the string using commas.
+->rsplit()-it splits the string from right side.
+->partition()-divide the str into 3 parts.
+->rpartition()-divides the str into 3 parts from right side.
+#joining:
+->join()-used to convert a list to string joined a whitespace, commas, - etc.
+#trimming:
+->strip():used to split the str based on the white spaces.
+->lstrip():used to split from left side.
+->rsplit():used to split from right side
+#encoding & decoding method:to send a file via internet,the file is sent to another in bytes.to convert into bytes and decode the bytes we use these methods.
+->encode()
+->decode()
+#string testing methods:
+->startswith():-
+->endswith():-
+->isalpha():-checks whether it contains all alphabets.
+->isalnum():-checks whether it contains any numbers.
+->islower()
+->isupper()
+->istitle()
+->isspace()
+->isidentifier()
+->isdecimal():used to check whether the no. consists from 0 to 9.
+->isdigit():used to check whether the no. consists from 0 to 9 as well as superscript and subscripts(2 pow 2, log base 2)
+->isnumeric():the above two and roman numbers.
+
+
