@@ -1,0 +1,19 @@
+grand test topics:
+->lambda functions
+->Str operations
+->lists
+->lambda and lists
+->list comphrension
+->dict
+->operations like input/output
+->patterns
+->recursion
+->lambda & list
+->exception handling
+->built-in modules
+5marks:
+->oops
+->data analysis(np, matplot)
+->file operations
+->reg exp
+->scenario based(for,while loops)
