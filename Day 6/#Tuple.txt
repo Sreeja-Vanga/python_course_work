@@ -1,0 +1,37 @@
+#Tuple:
+->immutable
+->ordered
+->fixed data
+->duplicates are allowed
+->heterogenous
+->when there are mutable types in the tuples , that can be modified.(eg: a list in the tuple can be modified, but cannot be deleted).
+->it allows packing and unpacking.
+#operations:
+operations:
+->concat
+->repeatition
+->indexing
+->slicing
+->membership
+#tuple methods:
+->count()
+->sum()
+->index()
+->max()
+->min()
+->sorted()
+#dictionary data type:
+->ordered
+->no duplicate key value, values can be duplicate
+->mutable
+->key val pair
+->key-immutable, val:mutable
+->we cannot have list, set, dict as key
+#operations:
+->membership (only for keys).
+->we can access ele using key values in dict
+->to access the keys we can use get() method.
+->modification of dict is done by d[key]=val, for list d[key].append()
+->updating the dict val: dict.update({'key':val,'key':val})-----for multiple values, for single val direct method
+->deleting the the values in the dict can be using-pop(),popitem(),
+
