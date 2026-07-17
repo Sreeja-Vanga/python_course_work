@@ -1,0 +1,34 @@
+->token :a token is the smallest unit of a program.
+->A token consists of variables, special_chars, keywords, literals, operators
+->variable is a container for storing the values.
+->rules of variables: var can be lower_case, uppercase, underscore.
+		      var can start with lowercase, uppercase, underscore.
+		      var are case sensitive and no keywords.
+
+->comments: used to improve the readability of  the code.(single(#) and multiple line(''') comments).
+->statement: single line of code is a statement.
+->keywords:
+	assert: debugging
+	asyn: asynchronous
+	except: exception handling
+	raise: raise exception explicitly
+	yield:generate
+->assignments:
+1.a=10(assigning a val)
+2.a,b=1,20(assigning diff value)
+3.a=b=10(assigning same value)
+4.a,b=b,a(swap)	
+
+->Nmerical:
+int
+float
+complex
+->sequencial:
+str
+list
+tuple
+->mapping:
+dict
+set
+
+->None, bool
