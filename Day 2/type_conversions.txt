@@ -1,0 +1,10 @@
+->type comversions:
+int can be converted into float,str,complex,bool but not list,tuple,set.
+float can be converted into int, str, complex,bool but not list , tuple, set.
+complex cannot be converted into int, str, float,list,tuple, set except bool.
+str can only be converted into list,tuple, set,bool. str can be converted into int, float, complex only when there are numbers in the str.
+list can be converted into str, tuple, set, bool.
+tuple can be converted into str, list, bool, set
+set can be converted into str, list, tuple, bool.
+dict can be converted into str, list, tuple, bool, set.
+bool can be converted into int, float, complex,str.
